@@ -1,0 +1,191 @@
+/*Todos los titulos de mis archivos van a ser iguales*/
+h1 {
+    font-size: 52px;
+    color: #3b4247;
+  }
+
+  h2 {
+    color: #9ba2a7;
+  }
+  h3 {
+    padding: 60px 15px 10px 15px;
+    color:#3b4247 ;
+  }
+  
+ /*La barra de navegacion tambien va a ser igual en todas mis paginas*/
+  nav{
+    text-align: right;
+    font-size: 24px;
+  }
+h5{
+    text-align: center;
+    text-decoration: underline;
+}
+footer {
+    text-align: center;
+}
+p{
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#6b7277
+}
+.body {
+    text-align: center;
+    background-image:url("imagenes/christopher-nolan-759.jpg") ;
+}
+
+.logo {
+    position: absolute;
+    left: 100;
+    width: 80px;
+    height: 87px;
+}
+
+.imagen{
+    width: 900px;
+    height: 700px;
+}
+
+header image{
+    display: flex;
+    justify-content: center;
+}
+
+h1,h2,h3 {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+header{
+    background-color: aliceblue;
+}
+.container{
+    display: flex;}
+#image-descrption {
+    text-decoration: unset;
+    color:gray
+}
+
+div p{
+    line-height: 7ch;
+}
+.hs{
+    text-align: center;
+}
+ul{
+    list-style-type: decimal;
+}
+.ul-font{
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.ul-circle{
+    list-style-type: circle;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: grid;
+    border: #3b4247;
+}
+.ul-circle-1 {
+    grid-column: 1/2;
+    grid-row: 1/4;
+    color:black;
+    padding-left: 100px;
+}
+.ul-circle-2 {
+    grid-column: 2/3;
+    grid-row: 1/4;
+    display: inline-block;
+    color: black;
+    padding-left: 100px;
+
+}
+.premio-nolan{
+    width: 600px;
+    height: 400px;
+}
+.center-pic{
+    text-align: center;
+}
+.nav-bar{
+    border: 1px solid brown;
+    padding-right: 200px;
+}
+.imagen-caja { padding: 40px 40px 200px 40px;
+background-color:gray;
+border: 10px solid black;}
+
+.bio-paragraph {
+    display: inline-block;
+    position: relative;
+    top: 40px;
+    left: 35px;
+
+}
+.imagen-primera { 
+height: 500px;
+width: 1400px;
+justify-content: center;
+padding-left: 20px;
+}
+.image-title {
+    justify-content: center;
+    position:absolute; top: 220px;
+    padding-left: 35px;
+
+}
+.enlace-uno {
+    text-decoration: none;
+    color: blue;
+}
+.enlace-uno:link {
+    text-decoration: underline;
+    color: black;
+}
+.enlace-dos {
+    color: blue;
+    text-decoration: overline;
+}
+.enlace-dos:hover {
+    color: black;
+    text-decoration: none;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: repeat(3,100px);
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.grid-container .grid-item {
+    font-size: 21px;
+    padding: 5px;
+}
+
+.imagen-poster {
+    width: 100%;
+    height: 100%;
+}
+.grid-item-uno {
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+.grid-item-dos {
+    grid-column: 2/3;
+    grid-row: 1/4;
+}
+.container-1 {
+    display: flex;
+}
+.trailer-1 {
+    display:inline-block;
+    position:relative;
+    left: 400px;
+}
+/*mobile*/
+@media only screen and ( max-width: 500px) { body { background-color:lightblue;}}
+
+/*tablet*/
+@media only screen and ( min-width: 501px) and (max-width: 960px) { body { background-color: #b2d6f9;}}
+
+/*Desktop*/ 
+@media only screen and ( min-width: 961px ) { body { background-color: #f2d6f9;}}
+ 
+
